@@ -1,0 +1,78 @@
+.card{
+    overflow: hidden;
+    height: 300px;
+    width: 90%;
+}
+
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+}
+
+.card .box-img{
+    overflow: hidden;
+    height: 260px;
+}
+
+.card .box-img .img{
+    height: 260px;
+}
+
+.card .box-img .img:hover{
+    transform: scale(1.5);
+    transition: 1.3s;
+}
+
+div.card-img-overlay{
+    text-align: start;
+    height: 1px;
+    position: absolute;
+    top: 70%;
+}
+
+.title-overlay{
+    font-size: 10px;
+    background-color: #048853;
+    border-radius: 10px;
+    display: inline;
+    padding: 0px 15px;
+    color: #fff;
+    margin-top: 100%;
+}   
+
+.title-overlay.h5{
+    font-size: 80%;
+    margin-top: 20px;
+}
+
+
+.card-body{
+    padding: 0px;
+    margin: 0;
+    height: 10vh;
+}
+
+.card-body .title-card a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.card-body .title-card a:hover{
+    cursor: pointer;
+    color: #6474f4;
+}
+
+@media screen and (min-width:769px) and (max-width: 1024px){
+    .card{
+        width: 70%;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width: 480px){
+    .card{
+        width: 100%;
+    }
+    .card-body .title-card {
+        margin-top: -10px;
+    }
+}

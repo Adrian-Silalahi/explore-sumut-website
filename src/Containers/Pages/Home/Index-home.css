@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(../../../Assets/Font/Poppins/Poppins-SemiBold.ttf);
+}
+
+.Home{
+    width: 100%;
+    height: 100vh;
+}
+
+.Home .myBg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../../../../public/Image/Home.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.Home .myBg h1{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+.Home .myBg .content{
+    text-align: center;
+    padding-top: 20%;
+}
+
+
+.Home .myBg .content button{
+    background-color: #6474f4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 180px;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+    align-items: center;
+    margin-top: 35px;
+    color: #fff;
+
+}
+
+.Home .myBg .content button a{
+    text-decoration: none;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .Home .myBg .content{
+        text-align: center;
+        padding-top: 30%;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .Home .myBg .content{
+        text-align: center;
+        padding-top: 35%;
+        width: 90%;
+        margin: auto;
+    }
+    .Home .myBg h1{
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        font-size: 1.4em;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+    .Home .myBg .content{
+        text-align: center;
+        padding-top: 55%;
+        width: 75%;
+        margin: auto;
+    }
+    .Home .myBg h1{
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        font-size: 1.5em;
+    }
+     a.navbar-brand{/*this class from index navigation */
+        font-family: 'Lobster Two', cursive;
+        color: #fff;
+        padding-left: 0;
+    }
+}
+

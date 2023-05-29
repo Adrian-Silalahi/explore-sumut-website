@@ -1,0 +1,114 @@
+
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../../../Assets/Font/Roboto/Roboto-Light.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../../../Assets/Font/Montserrat/static/Montserrat-SemiBold.ttf");
+}
+
+.destinasi{
+    height: 200vh;
+    text-align: center;
+    justify-items: center;
+    margin-bottom: 10vh;
+}
+
+
+.destinasi h1{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+    border-bottom: 3px solid #048853;
+    padding-bottom: 1%;
+    display: inline-block;
+}
+
+
+
+/* Tombol panah Carousel */
+.rec.rec-arrow{
+    background-color: #048853;
+}
+
+/* Container/Body Carousel */
+.sc-eCYdqJ.eLPooy.rec.rec-carousel{
+    width: 90%;
+    margin-top: 10%;
+}
+
+/* Titik 3 Carousel */
+.sc-iBkjds.kdCslO.rec.rec-pagination{
+    display: none;
+}
+
+
+.destinasi .quote{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../../../../public/Image/Sinabung-min.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    font-style: italic;
+    font-size: 130%;
+    padding: 25vh;
+    width: 95%;
+    margin: auto;
+}
+
+.destinasi .quote .layarDalam svg{
+    margin-top: -4%;
+    margin-right: 2%;
+}
+
+
+.destinasi .container p.paragraph{
+    margin: auto;
+    margin-top: 8%;
+    font-size: 110%;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    width: 80%;
+}
+
+@media screen and (min-width:481px) and (max-width: 768px){
+    .destinasi{
+        height: 260vh;
+    }
+    .layarDalam p{
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width: 480px){
+    .destinasi{
+        height: 280vh;
+    }
+
+    
+    .layarDalam p{
+        font-size: 0.8rem;
+        display: inline;
+    }
+
+    .layarDalam{
+        width: 80vw;
+        left: 10%;
+        margin-top: -8%;
+        position: absolute;
+
+    }
+
+    .sc-eCYdqJ.eLPooy.rec.rec-carousel{
+        width: 100%;
+    }
+    .destinasi .container{
+        width: 100%;
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+}

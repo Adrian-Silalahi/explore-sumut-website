@@ -1,0 +1,168 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../../../Assets/Font/Montserrat/static/Montserrat-SemiBold.ttf");
+}
+
+.galeri{
+    height: 123vh;
+    text-align: center;
+}
+
+.galeri h1{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    border-bottom: 3px solid #048853;
+    padding-bottom: 1%;
+    display: inline-block;
+}
+
+.galeri .box{
+    width: 90%;
+    height: 20vh;
+    display: flex;
+    margin: auto;
+    margin-top: 3.6%;
+    text-align: center;
+    line-height: 0px;
+    overflow: auto;
+}
+
+.galeri .box .images{
+    width: 12.5%;
+    height: 100%;
+    border-radius: 0;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+.galeri .box .images:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.active{
+    opacity: 0.5;
+}
+
+.galeri .content{
+    width: 90%;
+    height: 50%;
+    margin: auto;
+    margin-top: 1%;
+
+}
+
+.galeri img.gambar{
+    width: 40%;
+    margin-right: 14%;
+    margin-left: 1%;
+    height: 100%;
+    padding: 0;
+    box-shadow: 0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow: 0 0 20px rgba(0,0,0,0.8);
+    -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.8);
+    -o-box-shadow: 0 0 20px rgba(0,0,0,0.8);
+    border-radius: 0;
+}
+
+.galeri .content{
+    display: flex;
+}
+
+.galeri .content p{
+    margin: auto;
+    text-align: justify;
+    margin-right: 5%;
+}
+
+@media screen and (min-width:769px) and (max-width: 1024px){
+    .galeri{
+        height: 143vh;
+    }
+    
+    .galeri img.gambar{
+        margin-right: 4%;
+        width: 60%;
+    }
+    .galeri .box{
+        width: 90%;
+        overflow: scroll;
+        margin-top: 15vh;
+    }
+    .galeri .box .images{
+        width: 25%;
+        height: 100%;
+        border-radius: 0;
+        border: 2px solid white;
+        box-sizing: border-box;
+    }
+    .galeri .content p {
+        font-size: 0.88rem;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .galeri{
+        height: 180vh;
+    }
+    .galeri .content{
+        width: 90%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    .galeri img.gambar{
+        margin-right: 3%;
+        width: 100%;
+        height: 75%;
+    }
+    .galeri .box{
+        width: 90%;
+        overflow: scroll;
+        margin-top: 30vh;
+    }
+    .galeri .box .images{
+        width: 25%;
+        height: 100%;
+        border-radius: 0;
+        border: 2px solid white;
+        box-sizing: border-box;
+    }
+    .galeri .content p.text-muted {
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 480px){
+    .galeri{
+        height: 200vh;
+    }
+    .galeri .content{
+        width: 90%;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+    }
+    .galeri img.gambar{
+        margin-right: 3%;
+        width: 100%;
+        height: 40%;
+    }
+    .galeri .box{
+        width: 90%;
+        overflow: scroll;
+        
+    }
+    .galeri .box .images{
+        width: 45%;
+        height: 100%;
+        border-radius: 0;
+        border: 2px solid white;
+        box-sizing: border-box;
+    }
+    .galeri .content p.text-muted {
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+}

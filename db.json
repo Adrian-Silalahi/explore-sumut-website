@@ -1,0 +1,140 @@
+{
+    "posts": [[
+      {
+    "id" : 1,
+    "img_url" : "Image/D_BahManik.jpg",
+    "title" : "River with clear blue water",
+    "place" : "Bah manik",
+    "src" : "https://goo.gl/maps/keaGLD2FLba2NacHA"
+},
+{
+  "id" : 2,
+  "img_url" : "Image/D_Batuhoda.jpg",
+  "title" : "Beautiful beach that has a statue of a horse",
+  "place" : "Batuhoda beach",
+  "src" : "https://goo.gl/maps/vDR6v87n8NZuXGTf9"
+},
+{
+  "id" : 3,
+  "img_url" : "Image/D_BukitHolbung.jpg",
+  "title" : "Beautiful hills like in the world of teletubbies",
+  "place" : "Bukit holbung",
+  "src" : "https://goo.gl/maps/knyzQgAGhLti3F5t7"
+},
+{
+  "id" : 4,
+  "img_url" : "Image/D_Efrata.jpg",
+  "title" : "Beautiful and big waterfall",
+  "place" : "Efrata waterfall",
+  "src" : "https://goo.gl/maps/F8z5pRxnQgw4zDNt7"
+},
+{
+  "id" : 5,
+  "img_url" : "Image/D_Jambuara.jpg",
+  "title" : "Very beautiful waterfall that has a lot of greenery",
+  "place" : "Jambuara waterfall",
+  "src" : "https://goo.gl/maps/JWhzTzseE19u3C1T6"
+},
+{
+  "id" : 6,
+  "img_url" : "Image/D_Sajjan.jpg",
+  "title" : "Brown and white wooden house surrounded by trees",
+  "place" : "Sajjan heritage farm",
+  "src" : "https://g.page/shffarmstay?share"
+},
+{
+  "id" : 7,
+  "img_url" : "Image/D_Sibea-bea.jpg",
+  "title" : "very beautiful place and there is a big statue of jesus",
+  "place" : "Sibea-bea",
+  "src" : "https://goo.gl/maps/o7Ye3t5aqJ6otDL2A"
+},
+{
+  "id" : 8,
+  "img_url" : "Image/D_Sidihoni.jpg",
+  "title" : "The lake is above the lake and has a beautiful hill",
+  "place" : "Danau sidihoni",
+  "src" : "https://goo.gl/maps/rPQraQoiUT3LLGFE9"
+},
+{
+  "id" : 9,
+  "img_url" : "Image/D_Silalahi.jpg",
+  "title" : "The largest monument in North Sumatra",
+  "place" : "Tugu silalahi",
+  "src" : "https://goo.gl/maps/Vn3TSGy83AffKppw5"
+},
+{
+  "id" : 10,
+  "img_url" : "Image/D_Sipiso-piso.jpg",
+  "title" : "The highest waterfall in North Sumatra",
+  "place" : "Sipiso-piso waterfall",
+  "src" : "https://goo.gl/maps/ueQH3qnPxX14boUY7"
+},
+{
+  "id" : 11,
+  "img_url" : "Image/D_Situmurun.jpg",
+  "title" : "big waterfall by the lake",
+  "place" : "Situmurun waterfall",
+  "src" : "https://goo.gl/maps/Sk4tqrhWuFwL7GRz9"
+},
+{
+  "id" : 12,
+  "img_url" : "Image/D_Tongging.jpg",
+  "title" : "Tongging village pride monument and has a beautiful view",
+  "place" : "Tugu tongging",
+  "src" : "https://goo.gl/maps/BzS15HxkkQ7zchoh9"
+}],[
+{
+  "id" : 13,
+  "img_url" : "Image/G_Fishing2.jpg",
+  "place" : "Silalahi",
+  "paragraph" : "This photo was taken in Silalahi Village, Silahisabungan sub-district, Dairi Regency at a fishing spot on the shores of Lake Toba. There are a lot of people who come here to fish. In fact, most of these people come from outside the Silalahi village. fishing is usually just for fun or hobbies. The fish that can be obtained are varied, there are carp, baboon, tilapia, tilapia, and the most common lately is pest fish, namely red devil fish / fresh louhan."
+},
+{
+  "id" : 14,
+  "img_url" : "Image/G_IMGFromDebang.jpg",
+  "place" : "Silalahi",
+  "paragraph" : "This photo was taken in Silalahi Village, Silahisabungan Subdistrict, Dairi Regency at a large hotel called Debang Resort. From this hotel we can see a very beautiful view of Silalahi Lake. only by paying the parking fee you will get a shelter to look at the lake"
+},
+{
+  "id" : 15,
+  "img_url" : "Image/G_KapalSewa.jpg",
+  "place" : "Tugu tongging",
+  "paragraph" : "This photo was taken in Silalahi Village, Silahisabungan sub-district, Dairi Regency from the edge of the lake. In this photo we can see a ship sailing. They are travel boats that we can ride by only paying 20,000 to see the view of Lake Toba from the middle of the lake. They will look for customers first to the edges of the lake before going to the middle of the lake. This is one of the livelihoods in this village."
+},
+{
+  "id" : 16,
+  "img_url" : "Image/G_Orang_berpakaian_adat.jpg",
+  "place" : "Samosir",
+  "paragraph" : "This photo was taken at Tandarabun Beach, Samosir Regency, North Sumatra.Gondang Naposo is a tradition of the Batak tribe which is one of the largest tribes in Indonesia. Gondang Naposo is a tradition that is carried out for the youth of the Batak tribe to meet their pariban or mate. This tradition is carried out once a year on the island of Samosir."
+},
+{
+  "id" : 17,
+  "img_url" : "Image/G_Sampan1.jpg",
+  "place" : "Silalahi",
+  "paragraph" : "This photo was taken in Silalahi Village, Silahisabungan District, Dairi Regency from the edge of the lake. In this photo we can see the canoe that is sailing. it is a canoe that is being used to catch fish in the middle of the lake. This activity is one of the livelihoods in this village"
+},
+{
+  "id" : 18,
+  "img_url" : "Image/G_Sidihoni.jpg",
+  "place" : "Samosir",
+  "paragraph" : "This photo was taken from the edge of Lake Sidihoni. Lake Sidihoni is located in Ronggur Nihuta District, Samosir Regency. If Samosir Island is said to be 'an island on an island', Lake Sidihoni on Samosir Island can be said to be 'a lake above a lake' (above Lake Toba). Sidihoni Lake is 8 kilometers from Pangururan. The scenery around the lake can be reflected by the lake water. It is surrounded by light green sloping hills and rows of pine trees."
+},
+{
+  "id" : 19,
+  "img_url" : "Image/G_Tongging2.jpg",
+  "place" : "Tongging",
+  "paragraph" : "This photo is a view of the tongging village taken from the side of the tongging-sipiso-piso road. Tongging is a comfortable place to relax and also an interesting place to visit. Located on the north end of Lake Toba with a very beautiful view. The steep and winding road from Brand. From the right side of this road, we can see the beauty of the Sipiso-piso waterfall. Tongging is in the middle of an area inhabited by three Batak Toba, Pakpak and Karo tribes who mix and use the local language using the language of the three tribes."
+},
+{
+  "id" : 20,
+  "img_url" : "Image/G_Tuk-tuk-min.jpg",
+  "place" : "Samosir",
+  "paragraph" : "This photo is a view of the shores of Lake Toba in Tuk-tuk Siadong. Tuktuk Siadong is a village located in Simanindo District, Samosir Regency, North Sumatra Province, Indonesia. This place has become one of the main destinations for tourist visits which is famous for its natural scenery and unique carvings."
+}
+    ]],
+    "comments": [],
+    "profile": {
+      "name": "typicode"
+    }
+  }

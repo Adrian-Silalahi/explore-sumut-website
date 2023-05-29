@@ -1,0 +1,48 @@
+.Tentang{
+    height: 230vh;
+    text-align: center;
+    margin: auto;
+    width: 90%;
+}
+
+
+h1.title{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+    border-bottom: 3px solid #048853;
+    display: inline-block;
+    padding-bottom: 1%;
+}
+
+.letakGeografis, .iklimDanCuaca{
+    text-align: justify;
+    margin-bottom: 5%;
+}
+
+.letakGeografis h4 , .iklimDanCuaca h4{
+    margin-bottom: 2%;
+}
+
+.description{
+    text-align: justify;
+    margin: 5% 0;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px)  {
+    .Tentang{
+        height: 270vh;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px)  {
+    .Tentang{
+        height: 300vh;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width: 480px) {
+    .Tentang{
+        height: 360vh;
+    }
+}

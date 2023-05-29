@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "Valverde";
+  src: url("../../../Assets/Font/Valverde/Valverde-CondensedSemibold.otf");
+}
+
+nav.navbar {
+  color: #fff;
+  width: 100%;
+  padding: 0%;
+  padding-top: 0.2%;
+  position: absolute;
+  position: fixed;
+  z-index: 2;
+  height: 60px;
+}
+
+a.navbar-brand {
+  /* font-family: 'Valverde', cursive; */
+  color: #fff;
+  padding-left: 5%;
+  width: 100px;
+}
+
+#navbarNav {
+  justify-content: end;
+  margin-right: 2%;
+}
+
+.navbar .daftar-halaman ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+  position: relative;
+  font-size: 15px;
+}
+
+.navbar .daftar-halaman ul li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.navbar .daftar-halaman ul li Link:active {
+  border-bottom: 3px solid #009688;
+}
+
+.navbar .daftar-halaman ul li::after {
+  content: "";
+  height: 3px;
+  width: 0;
+  background: #009688;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  transition: 0.5s;
+}
+
+.navbar .daftar-halaman ul li:hover::after {
+  width: 100%;
+}
+
+@media screen and (max-width: 991.5px) {
+  ul.navbar-nav {
+    padding-left: 7vh;
+    background-color: #009688;
+    position: absolute;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .navbar .daftar-halaman ul li a {
+    padding: 2px 0;
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .navbar .daftar-halaman ul li a {
+    padding: 4px 0;
+    font-size: 0.85rem;
+  }
+}
